@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+div {
+    border: 2px solid rgb(0, 0, 0);
+    background-image: radial-gradient(cyan,blue);
+    margin-top: -395px;
+    transition: 0.5s;
+}
+div button{
+    margin: 20px;
+    font-size: 40px;
+    transition: 0.5s;
+    transform: translateX(70px);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    
+    
+    
+}
+
+.shecvla {
+    transform: translateY(300px);
+    font-size: 50px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.shecvla:hover {
+    background-color: yellowgreen;
+}
+
+#red {
+    background-color: red;
+    
+}
+#green{
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#yellow {
+    background-color: yellow;
+}
+
+#red:hover {
+    background-color: white;
+}
+#green:hover {
+    background-color: white;
+}
+#yellow:hover {
+    background-color: white;
+}
+#blue:hover {
+    background-color: white;
+}
+
+
+#red:active {
+    background-color: red;
+}
+#green:active {
+    background-color: green;
+}
+#yellow:active {
+    background-color: yellow;
+}
+#blue:active {
+    background-color: blue;
+}
+
+#white:hover {
+    background-color: rgb(253, 195, 253);
+    
+}
+
+
+@media (max-width:1328px ) {
+       div {
+           width: 95%;
+       }
+
+}
+
+@media (max-width:942px ) {
+    div button{
+        display: block;
+        margin-left: 150px;
+        
+    }
+    div {
+        width: 900px;
+        
+    }
+    .shecvla {
+        transform: translateY(50px);
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:902px ) {
+    div button{
+        
+    }
+    div {
+        width: 95%;
+    }
+
+}
+
+@media (max-width:656px ) {
+    div button{
+        margin-left: -20px;
+    }
+    div {
+        width: 95%;
+    }
+
+}
+
+
+@media (max-width:476px ) {
+   div button  {
+        font-size: 30px;
+    }
+    div {
+        width: 95%;
+    }
+
+}
+@media (max-width:364px ) {
+    div button{
+        width: 178px;
+    }
+    div {
+        width: 95%;
+    }
+
+}
+
+
+@media (max-width:292px ) {
+    .shecvla {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:244px ) {
+    div button{
+        transform: translateX(-0.1px);
+    }
+    div {
+        
+    }
+
+}
